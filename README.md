@@ -30,9 +30,12 @@ npm install
     
 ## Trouble Shooting
 
-### Heroku
+### Heroku(PaaS)
 * 문제
    * Custom Domain 연결은 성공했으나 SSL연결 실패
+* 해결
+   * cloudeflare에서 SSL을 `Flexible`로 변경
+   * <https://support.cloudflare.com/hc/en-us/articles/205893698> 참고
 
 ## About
 
