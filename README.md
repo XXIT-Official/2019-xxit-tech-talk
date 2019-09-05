@@ -27,6 +27,12 @@ npm install
     * 메인 페이지 완성
 * 1.1.0
     * `이전의 행사 페이지` 작업 중
+    
+## Trouble Shooting
+
+### Heroku
+* 문제
+   * Custom Domain 연결은 성공했으나 SSL연결 실패
 
 ## About
 
