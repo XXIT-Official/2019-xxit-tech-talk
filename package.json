@@ -1,0 +1,17 @@
+{
+  "name": "2019xxittechtalk",
+  "version": "1.0.0",
+  "description": "2019 xxit tech talk webpage",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": ["xxit"],
+  "author": "xxit<official@xxit.world>",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  }
+}
