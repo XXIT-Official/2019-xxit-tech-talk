@@ -1,7 +1,12 @@
 const express = require('express');
 const app = express();
 var path = require('path');
+var helmet = require('helmet')
 const PORT= process.env.PORT || 3000;
+
+
+// security
+app.use(helmet())
 
 // routes
 const indexRoute = require("./routes/index");
@@ -15,6 +20,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 // use routes
 app.use("/", indexRoute);
 
+app.use(function (req, res) {
+    res.redirect('/');
+});
 
 //listen
 app.listen(PORT, function () {

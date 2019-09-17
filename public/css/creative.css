@@ -596,6 +596,10 @@ pre code {
   color:#233463;
 }
 
+.font-mint{
+  color:#40E0D0;
+}
+
 .container-fluid {
   width: 100%;
   padding-right: 15px;
@@ -10383,6 +10387,23 @@ button.bg-dark:focus {
 
 .text-primary {
   color: #f4623a !important;
+}
+
+
+.text-green {
+  color: #576E56 !important;
+}
+
+.text-blue {
+  color: #3D8AD4 !important;
+}
+
+.text-sky {
+  color: #57AEF1 !important;
+}
+
+.text-lightgreen {
+  color: #96D986 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {

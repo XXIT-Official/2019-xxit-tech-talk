@@ -1,5 +1,6 @@
 # 2019 XXIT Tech Talk
 > 2019년 XXIT Tech Talk 웹페이지<br>
+> (techtalk.xxit.world)[https://techtalk.xxit.world]<br>
 > [Start Bootstrap - Creative](https://github.com/BlackrockDigital/startbootstrap-creative) 템플릿 사용 
 
 백/프론트/신기술/데이터 4개 분야 여성 개발자분들의 스피치를 들을 수 있는 Tech Talk
@@ -26,7 +27,13 @@ npm install
 * 1.0.0
     * 메인 페이지 완성
 * 1.1.0
-    * `이전의 행사 페이지` 작업 중
+    * `이전의 행사 페이지` 작업
+        * `이전의 행사` xxit.world로 옮김
+* 1.2.0
+    * 파비콘 설정
+    * 연사자 목록 디자인 수정
+    * 연사자 소개 및 주제 Modal 작업
+    
     
 ## Trouble Shooting
 
